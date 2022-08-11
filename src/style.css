@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1920px) {
+  html {
+    background: red;
+  }
+
+  .meta-width {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1620px) and (max-width: 1920px) {
+  html {
+    background: blue;
+  }
+
+  .meta-width {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 1620px) {
+  html {
+    background: green;
+  }
+
+  .meta-width {
+    width: 350px;
+  }
+}
